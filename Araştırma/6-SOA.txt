@@ -1,0 +1,70 @@
+Service Oriented Architecture (SOA) 
+
+Hizmet Odaklı Mimari veya SOA, protokol aracılığıyla diğer uygulamalara hizmet sunan dağıtılmış sistemler oluşturmak için tasarlanmış bir tasarım modelidir. Bu sadece bir kavramdır ve herhangi bir programlama dili veya platformu ile sınırlı değildir. 
+
+Characteristics of SOA 
+
+Hizmetler aşağıdaki özelliklere sahiptir: 
+
+Gevşek bir şekilde bağlanırlar. 
+
+Birlikte çalışabilirliği desteklerler. 
+
+Konum şeffaftırlar 
+
+Kendi kendine yeterler. 
+
+Components of service-oriented architecture 
+
+Servis odaklı mimari yığını iki bölüme ayrılabilir - işlevsel yönler ve hizmet kalitesi yönleri. 
+
+İşlevsel yönler 
+
+İşlevsel yönü şunları içerir: 
+
+Taşıma - Hizmet tüketicisinden hizmet taleplerini servis sağlayıcıya ve hizmet yanıtlarını servis sağlayıcıdan hizmet tüketicisine taşır. 
+
+Hizmet İletişim Protokolü - Hizmet sağlayıcı ve hizmet tüketicisinin birbirleriyle iletişim kurmasını sağlar. 
+
+Hizmet Açıklaması - Hizmeti çağırmak için gereken hizmeti ve verileri açıklar. 
+
+Hizmet - Gerçek bir hizmettir. 
+
+İş Süreci - İş gereksinimlerini karşılamak için belirli kurallarla ilişkili belirli bir sırayla çağrılan hizmet grubunu temsil eder. 
+
+Hizmet Kayıt Defteri - Hizmet sağlayıcıları tarafından hizmetlerini yayımlamak için kullanılan verilerin açıklamasını içerir. 
+
+Hizmet Kalitesi yönleri 
+
+Hizmet kalitesi yönleri şunları içerir: 
+
+Politika - Bir servis sağlayıcının hizmetleri tüketicilere yaptığı ve sağladığı protokoller kümesini temsil eder. 
+
+Güvenlik - Tanımlama ve yetkilendirme için gereken protokol kümesini temsil eder. 
+
+İşlem - Tutarlı sonucun garantisini sağlar. Bu, bir iş işlevini tamamlamak için hizmet grubunu kullanırsak, ya hepsinin tamamlanması ya da hiçbirinin tamamlanmaması gerektiği anlamına gelir. 
+
+Yönetim - Hizmetleri yönetmek için kullanılan öznitelikler kümesini tanımlar. 
+
+Advantages of SOA 
+
+SOA aşağıdaki avantajlara sahiptir: 
+
+Entegrasyonu kolay - Hizmet odaklı bir mimaride entegrasyon, uygulama şeffaflığı sağlayan bir hizmet belirtimidir. 
+
+Karmaşıklığı Yönetin - Hizmet özellikleri nedeniyle karmaşıklıklar yalıtılır ve entegrasyon daha yönetilebilir hale gelir. 
+
+Platform Bağımsızlığı - Hizmetler, ortak bir dil aracılığıyla diğer uygulamalarla iletişim kurabildikleri için platformdan bağımsızdır. 
+
+Gevşek bağlantı - Diğer uygulamaları veya hizmetleri etkilemeden hizmetlerin uygulanmasını kolaylaştırır. 
+
+Paralel Geliştirme - SOA, katman tabanlı mimariyi izlediğinden, paralel geliştirme sağlar. 
+
+Mevcut - SOA hizmetleri, talep eden herkes tarafından kolayca kullanılabilir. 
+
+Güvenilir - Hizmetler küçük boyutlu olduğundan, bunları test etmek ve hata ayıklamak daha kolaydır. 
+
+ 
+
+ 
+ 
