@@ -1,0 +1,38 @@
+What are REST APIs? 
+
+ 
+
+REST API'leri, birden fazla yazılım uygulamasının iletişim kurmasına ve veri paylaşmasına olanak tanır. Kodunuzu, çeşitli uygulamalardan erişilebilecek şekilde düzenlemeyi içerir. REST API programınız, verilerinize erişim sağlayan ve veri istekleri gönderen kullanıcıların kimliklerini doğrulayan bir sunucu kodudur. Diğer uygulamalar, verilerinizle etkileşim kurmak için bu REST API'yi kullanır. Herhangi bir REST API aşağıdaki bileşenleri içermelidir: 
+
+Uç noktalar: REST API'nin Uç Noktası, bir nesneyi veya gruplandırılmış veri nesneleri koleksiyonunu temsil eden tek bir URL'dir. API'nin istek gönderdiği ve yanıtın kaynaklandığı adres uç nokta olarak bilinir. Her API isteğinin kendisiyle ilişkilendirilmiş bir uç noktası vardır.  
+
+Üstbilgiler: REST üstbilgileri, her REST API isteğini açıklayan meta verileri içerir. REST üstbilgisi, isteğin biçimini, yanıtın biçimini ve isteğin durumuyla ilgili güncelleştirmeleri temsil eder.  
+
+İstemci-Sunucu Mimarisi: REST API'leri, bir istek-yanıt işlemini yönetirken sunucu ve istemcinin bağımsız olarak hareket ettiği bir istemci-sunucu mimarisi üzerinde çalışır. Bununla birlikte, aralarındaki arayüz etkileşim boyunca sabit kalır. Sunucu bilgileri içerir ve istemcinin isteğine göre kullanıcıya aktarır. 
+
+ 
+
+Key Features of REST APIs  
+
+Aşağıdaki özellikler REST API'leri benzersiz kılar: 
+
+Durum bilgisi olmayan: REST API'leri durum bilgisi olmayan bir tasarım üzerinde çalışır. Bu, bir istemci ve sunucu iletişim kurduğunda, isteği tamamlamak için ek bilgilere ihtiyaç duydukları anlamına gelir. Ayrıca, oturum durumu olmadığı anlamına gelir ve kimlik doğrulaması gerekiyorsa, istemcinin her istekte bulunduğunda işlemin kimliğini doğrulaması gerekir.  
+
+Önbellek tabanlı: REST API'ler de önbelleğe alınabilir, bu da istemcinin, sunucunun ve bağlı tüm ara yazılımların daha iyi performans için kaynakları önbelleğe alabileceği anlamına gelir.  
+
+Katmanlı Mimari: REST API'leri, bir katmanın belirli bir işleve sahip olduğu ve bir katmanın çıktısının diğerinin girdisi olarak hizmet ettiği katmanlı bir mimari kullanır. Katmanların sorumlulukları olsa da, birbirleriyle etkileşime girmeleri ve REST API mimarisinde bir hiyerarşi sürdürmeleri gerekir.  
+
+Tekdüzen Arabirim: REST API'leri, istemcinin sunucuyla belirli bir dilde konuşmasına izin vermek için tek tip bir arabirim kullanır. Bu, uygulamanın REST API ile birlikte hizmetleri, modelleri veya diğer işlevleri olmadan bağımsız olarak gelişmesine olanak tanır. 
+
+ 
+
+
+Working of REST APIs 
+
+REST API'si, etkileşimleriniz için birincil adres görevi gören bir ana bilgisayar URL'si gerektirir. REST API'leri ayrıca, işlevselliğinden sorumlu ana bilgisayar içi URL'lerde bulunan benzersiz adresler olan bir dizi uç noktaya da ihtiyaç duyar. Ayrıca, bir REST API'nin uç noktalarını, dönüş değerini, veri türlerini ve diğer temel özelliklerini belgelemek iyi bir uygulamadır.  
+
+Aşağıdaki diyagram, bir REST API oluşturmak için kodunuzun gerekli organizasyonunun üst düzey bir temsilidir. Diğer uygulamaların gereksinim duyabileceği verileri içeren bir veya daha fazla veritabanınız olabilir. Bu nedenle, veritabanıyla etkileşim kurmak için SQL ve JDBC kullanan REST API'yi kullanacaklardır. REST API'leri, aşağıdaki resimde gösterildiği gibi her yeni uygulama oluşturmak istediğinizde yeniden yazmak yerine tüm temel mantığınızı tek bir yerde merkezileştirmenizi sağlar. 
+
+ 
+
+Artık API'ler, bir kullanıcı onları her çağırdığında gerekli verileri döndürecek şekilde tasarlanmıştır. Ancak, REST API'leri kullandığınızda, yalnızca istenen verileri döndürmekle kalmaz, aynı zamanda temsil için iyi yapılandırılmış bir biçimde sunar. REST API, farklı uygulamaların iletişim kurmasına izin veren bir istemci-sunucu mimarisi kullanır. İstemci yazılımı, bir REST API kullanarak sunucu uygulamasına bir çağrı yapar. Sunucu uygulaması, istenen verileri HTTP protokolü üzerinden anahtar parametreler kullanılarak düzenlenmiş yapılandırılmış bir biçimde gönderir. 
